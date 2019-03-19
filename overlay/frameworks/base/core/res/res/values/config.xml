@@ -270,7 +270,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+    <!--  <integer name="config_deviceHardwareWakeKeys">65</integer>  -->
 
     <!-- Control the behavior when the user long presses the home button
             0 - Nothing
@@ -307,7 +307,7 @@
     <!-- Certain sensor firmwares break with having a batch
          size set. By setting this to false, devices can opt
          out of setting a batch size, which fixes rotation. -->
-    <bool name="config_useDefaultBatchingForAccel">false</bool>
+    <!--  <bool name="config_useDefaultBatchingForAccel">false</bool>  -->
 
     <!-- Override the default detection behavior for the framework method
          android.view.ViewConfiguration#hasPermanentMenuKey().
@@ -318,7 +318,7 @@
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
 
     <!-- Enable blur support -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!--  <bool name="config_uiBlurEnabled">true</bool>  -->
 
     <!-- Values for GPS configuration -->
     <string-array translatable="false" name="config_gpsParameters">
