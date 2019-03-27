@@ -79,14 +79,6 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
-# FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
-
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \
