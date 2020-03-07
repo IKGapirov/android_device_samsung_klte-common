@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+#DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -44,14 +44,6 @@ PRODUCT_PACKAGES += \
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
-# FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
