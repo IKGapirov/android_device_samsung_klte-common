@@ -5,6 +5,9 @@
 /dev/ttyHS3                                             u:object_r:audio_device:s0
 /dev/vfsspi                                             u:object_r:vfsspi_device:s0
 
+# Lights
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.samsung		  u:object_r:hal_light_default_exec:s0
+
 # sysfs
 /sys/devices(/.*)?/input/input[1-2]/enabled             u:object_r:sysfs_hal_pwr:s0
 
